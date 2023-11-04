@@ -248,10 +248,14 @@ h6,
     transition: .5s;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
 .feature-item:hover {
     margin-top: -15px;
     }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 
