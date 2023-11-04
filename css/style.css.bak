@@ -248,9 +248,13 @@ h6,
     transition: .5s;
 }
 
+@media screen and (min-width: 1200px) {
 .feature-item:hover {
     margin-top: -15px;
+    }
 }
+
+
 
 .advanced-feature-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
@@ -325,7 +329,7 @@ h6,
 
 .process li h5 {
     margin: 0;
-
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 40px;
