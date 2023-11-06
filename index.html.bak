@@ -174,11 +174,11 @@
 
 
         <!-- Feature Start -->
-        <div class="container-xxl bg-light my-6 py-5" id="features">
+        <div class="container-xxl bg-light py-5" id="features">
             <div class="container">
-            <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="my-3">Features</h1>
-                      </div>
+                </div>
                 <div class="row g-5 py-5 align-items-center">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <img class="img-fluid rounded" src="img/customize.jpg">
@@ -255,7 +255,7 @@
                             <li>
                                 <span><i class="fa fa-folder-open"></i></span>
                                 <div>
-                                    <h5>Unzip the folder and you're ready to go</h5>
+                                    <h5>Software is a standalone .exe file packaged in a zip folder, unzip and you're ready to go</h5>
                                 </div>
                             </li>
                             <li>
@@ -283,16 +283,19 @@
 
 
         <!-- Contact Start -->
-        <div class="container-xxl py-5" id="contact">
+        <div class="container-xxl my-6" id="contact">
+            <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="my-5">Get In Touch</h1>
+             </div>
             <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="mb-3">Get Started</h1>
+   
                         <p class="mb-4">
                         
-                        Feel free to leave your contact details and message (if any) in the form for a quote or to find out more!
-                        Alternatively, simply send your enquiry to the email below.
-
+                        Feel free to leave your contact details and message in the form, or send an inquiry to the email below, for a quote or to find out more! 
+                        If you face a problem in school and are looking for a software or automated solution, feel free to raise it too!
+                        </p>
                      
                         <div class="d-flex mb-4">
                             <div class="flex-shrink-0 btn-square rounded-circle bg-primary text-white">
@@ -303,18 +306,41 @@
                                 <h5 class="mb-0">contact@appcumen.com</h5>
                             </div>
                         </div>
+                        
+                         <ul class="process mb-0">
+                            <li>
+                                <span><i class="fa fa-check"></i></span>
+                                <div>
+                                    <h5>I'm interested in the Custom OMR Grading Software!</h5>
+                                </div>
+                            </li>
+                            <li>
+                               
+                                <div>
+                                    <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR</h5>
+                                </div>
+                            </li>
+                            <li>
+                                <span><i class="fa fa-check"></i></span>
+                                <div>
+                                    <h5>I need a software solution for a problem I faced in school!</h5>
+                                </div>
+                            </li>
+                        </ul>
+                        
+
                       
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <form action="https://formspree.io/f/mzblwgvz"  method="POST">
                             <div class="row g-3">
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <div class="form-floating">
                                         <input type="text" class="form-control" id="name" name="Name" placeholder="Your Name">
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <div class="form-floating">
                                         <input type="email" class="form-control" id="email" name="Email" placeholder="Your Email">
                                         <label for="email">Your Email</label>
